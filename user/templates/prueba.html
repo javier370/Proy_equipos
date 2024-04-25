@@ -1,0 +1,49 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+<h2>Pagina prueba</h2>
+<h3>{{mensaje}}</h3>
+
+<div class="card" style="width: 30rem;">    
+    <div class="card-body">
+        <h5 class="card-title">Card Prueba</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nulla sapiente quisquam dolores. Reprehenderit maiores soluta veniam fuga, voluptatibus hic doloremque numquam obcaecati aliquid tempora, incidunt, impedit quibusdam ea et!</p>
+        <a href="#" class="btn btn-outline-primary">Lorem ipsum dolor sit </a>
+    </div>
+</div>
+
+<hr/>
+
+<table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan="2">Larry the Bird</td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+{% endblock content %}
